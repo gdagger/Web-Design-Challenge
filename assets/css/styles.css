@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(1, 145, 145);
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px
+}
+
+.navbar-nav {
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.me-auto {
+    margin-left: 80%;
+}
+
+.nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+

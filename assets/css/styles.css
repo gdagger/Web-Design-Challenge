@@ -1,5 +1,13 @@
+body {
+    background-color:rgb(223, 223, 223);
+}
+
+.navbar {
+    background-color: white;
+}
+
 .navbar-brand {
-    font-family:'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     background-color: rgb(1, 145, 145);
     color: white;
@@ -13,6 +21,7 @@
 
 .navbar-nav {
     color: blue;
+    background-color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-bottom: 0px;
@@ -27,3 +36,50 @@
     padding-right: 30px;
 }
 
+.container {
+    border-style: solid;
+    border-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    margin-top: 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: blue;
+}
+
+.col {
+    border-style: solid;
+    border-color: green;
+}
+
+h1, h2 {
+    color:rgb(1, 145, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-size:30px;
+}
+
+.mainimages {
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+}
+
+p {
+    padding-top: 20px;
+    padding: 20px;
+}

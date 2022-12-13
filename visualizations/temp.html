@@ -17,12 +17,70 @@
   </head>
 
   <body>
-    <h1>Temperature</h1>
     <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../visualizations/temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="../visualizations/humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="../visualizations/cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="../visualizations/wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../comparison.html">Comparison</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../data.html">Data</a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- End of navbar -->
 
     <!-- Start of container -->
+    <div class="container">
+      <div class="row gx-10">
+        <div class="col col-md-12 col-sm-12 white-bg">
+          <div class="box">
+            <h1>Max Temperature</h1>
+            <hr class="titlehr">
+              <img class="mainimg" src="../assets/images/Fig1.png" alt="Scatter plot of maximum temperature vs latitude">
 
+            <p>
+              The above scatter plot shows the maximum temperature (in degrees Fahrenheit) of each city in the dataset vs. latitude.
+            </p>
+
+            <p>
+              This plot shows that temperature increases as one approaches the equator from either direction, as expected.
+              Interestingly, it also shows that temperatures in the southern hemisphere tend to be warmer than temperatures in the northern hemisphere,
+              at this time of year (January). This may be in part due the fact that there are way more northern hemisphere cities represented in this data
+              set and also possibly as a result the earth's tilt at this point of the year.
+            </p>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
           <!-- Start of Visualizations imageNav Area -->
           <!-- End of the Visualizations imageNav Area -->
 

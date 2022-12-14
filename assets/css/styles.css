@@ -133,9 +133,27 @@ table {
 }
 
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .navbar {
         background-color: rgb(1, 145, 145);
         color: white;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .comparisonimg {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    table {
+        font-size: 8px;
     }
 }

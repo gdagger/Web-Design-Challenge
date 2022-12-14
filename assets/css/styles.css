@@ -46,6 +46,10 @@ body {
 .col {
 }
 
+.vizthumbnails {
+    background-color: white;
+}
+
 .mainimg {
     max-width: 100%;
     height: auto;

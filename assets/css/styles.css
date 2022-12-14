@@ -1,3 +1,4 @@
+/* Set background color for body */
 body {
     background-color:rgb(223, 223, 223);
 }
@@ -39,13 +40,6 @@ body {
     margin-top: 50px;
 }
 
-.row {
-    
-}
-
-.col {
-}
-
 .vizthumbnails {
     background-color: white;
 }
@@ -74,7 +68,6 @@ h1, h2, h3 {
 }
 
 h1 {
-    /* padding-bottom: 20px; */
     padding-top: 40px;
     padding-left: 20px;
 }
@@ -128,7 +121,6 @@ table {
     font-size: 10px;
     background-color: white;
     table-layout: auto;
-    /* width: 90%; */
     margin-right:30px;
 }
 

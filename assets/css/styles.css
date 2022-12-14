@@ -98,7 +98,7 @@ h3 {
 hr {
     width:75%;
     margin:auto;
-    color:lightgray
+    color:lightgray;
 }
 
 .titlehr {
@@ -150,10 +150,21 @@ table {
     .comparisonimg {
         width: 300px;
     }
+
+    .comparisonhr {
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 515px) {
     table {
         font-size: 8px;
+        display: block
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .comparisonhr {
+        display: none;
     }
 }

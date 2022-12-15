@@ -7,6 +7,10 @@ body {
     background-color: white;
 }
 
+/* .navbar-collapse {
+    background-color: white;
+} */
+
 .navbar-brand {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -129,6 +133,10 @@ table {
     .navbar {
         background-color: rgb(1, 145, 145);
         color: white;
+    }
+
+    .navbar-brand {
+        border: none;
     }
 
     h2 {

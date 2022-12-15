@@ -83,4 +83,8 @@ The Landing page (index.html), Comparison page (comparison.html), and Data page 
   - CSS folder
     - CSS style sheet
   - Images folder
-    - four visualization plot images
+    - 4 visualization plot PNG images
+- Resources folder
+  - cities.csv (original dataset)
+  - data_table.html (exported from Pandas)
+  - data_table.ipynb (Jupyter notebook file containing code used to import csv and export html files)

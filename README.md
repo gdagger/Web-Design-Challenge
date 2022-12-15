@@ -6,6 +6,10 @@
 
 For this assignment, I used HTML, CSS, and CSS Bootstrap to create a dashboard featuring the Latitude vs. X analysis of weather. This project used the provided data set and images from the WeatherPy assignment as the primary source of content.
 
+This website can be access through github pages by clicking the following link:
+
+https://gdagger.github.io/Web-Design-Challenge/index.html
+
 <br>
 
 ---

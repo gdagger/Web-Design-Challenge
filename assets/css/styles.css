@@ -148,7 +148,7 @@ table {
     }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (min-width: 351px) and (max-width: 515px) {
     table {
         font-size: 8px;
         display: block

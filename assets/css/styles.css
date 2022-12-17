@@ -51,7 +51,7 @@ body {
 .mainimg {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
 }
 .box {
     padding-left: 20px;
@@ -128,7 +128,7 @@ table {
     margin-right:30px;
 }
 
-
+/* Small and XS Screens */
 @media screen and (max-width: 991px) {
     .navbar {
         background-color: rgb(1, 145, 145);
@@ -156,6 +156,7 @@ table {
     }
 }
 
+/* Smallest browser screen sizes to fit text in table */
 @media screen and (min-width: 351px) and (max-width: 515px) {
     table {
         font-size: 8px;
@@ -166,10 +167,11 @@ table {
 @media screen and (max-width: 350px) {
     table {
         font-size: 5px;
-        display: block
+        display: block;
     }
 }
 
+/* Remove horizonal rule for 2x2 image configuration */
 @media screen and (min-width: 992px) {
     .comparisonhr {
         display: none;
